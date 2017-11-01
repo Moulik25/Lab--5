@@ -1,0 +1,81 @@
+html,body,table,th,tr,h1{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+}
+
+
+
+table{
+		border-collapse: collapse;
+		border: 1px solid black;
+		padding: 15px;
+
+
+}
+th{
+		border: 1px solid white;
+		height: 40px;
+		text-align: center;
+		padding: 15px;
+		
+
+}
+tr{
+		border: 1px solid white;
+	    padding: 15px;
+		font-family: "Comic Sans MS", cursive, sans-serif;
+}
+body {
+		color: white;
+		background-image: url("planets.jpg");
+}
+
+h1 {
+    text-align: center;
+	color: blue;
+	font-size: 40px;
+
+}
+html{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+p:first-child{
+   color: red;
+}
+#headline{
+	color: grey;
+}
+
+th:hover #mercury, th:focus #mercury {
+transform: scale(1.5) rotate(3deg);	
+}
+th:hover #mars, th:focus #mars {
+transform: scale(1.5) rotate(3deg);	
+}
+th:hover #jupiter, th:focus #jupiter {
+transform: scale(1.5) rotate(3deg);	
+}
+th:hover #neptune, th:focus #neptune {
+transform: scale(1.5) rotate(3deg);	
+}
+
+#mercury1{
+	background-color: black;
+}
+#mars1{
+	background-color: black;
+}
+#jupiter1{
+	background-color: black;
+}
+#neptune1{
+	background-color: black;
+}
+
+
+
